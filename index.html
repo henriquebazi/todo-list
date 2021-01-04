@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/3013465994.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+  <div class="todo-application text-light m-5">
+    <div class="container py-2">
+      <h2 class="title-todo text-center py-3">
+        To-Do List
+      </h1>
+
+      <div class="search-todo-list">
+        <form class="search-form">
+            <input class="form-control bg-dark m-auto" type="text" name="search" autofocus autocomplete="off" placeholder="Search todo here">
+            <div class="fa-eraser-div">
+              <i class="fas fa-eraser"></i>
+            </div>
+        </form>
+      </div>
+
+      <div class="my-todo-list">
+        <ul class="todo-list list-group my-3 border mx-auto">
+          <li class="todo list-group-item d-flex align-items-center justify-content-between" data-trash="Study JavaScript">
+            <span class="to-do">Study JavaScript</span>
+            <div class="organization">
+              <span class="px-3 ps-0">20/12</span>
+              <i class="fas fa-trash-alt"></i>
+            </div>
+          </li>
+
+          <li class="todo list-group-item d-flex align-items-center justify-content-between" data-trash="Study NodeJS">
+            <span class="to-do">Study NodeJs</span>
+            <div class="organization">
+              <span class="px-3 ps-0">20/12</span>
+              <i class="fas fa-trash-alt"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="add-todo-list">
+        <div class="container">
+          <form class="add-form d-flex justify-content-center align-items-center">
+            <input class="form-control bg-dark m-auto" type="text" name="add" autocomplete="off" placeholder="Add todo in the list">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="containter">
+        <footer>
+          <p class="assign d-flex justify-content-center align-items-center">Developed by Henrique Bazi</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./app.js"></script>
+</body>
+</html>

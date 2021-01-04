@@ -1,0 +1,33 @@
+.container {
+  max-width: 400px;
+}
+
+.todo-list {
+  max-width: 400px;
+}
+
+.todo-list li {
+  background: gray;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: white;
+  max-width: 400px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.search-todo-list {
+  position: relative;
+  width: 400px;
+  margin: auto;
+}
+
+.fa-eraser-div {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
